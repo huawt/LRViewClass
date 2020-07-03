@@ -22,7 +22,7 @@ pod 'LRViewClass'
 
 ## Author
 
-huawt, 18602420243@163.com
+huawt, ghost263sky@163.com
 
 ## License
 
