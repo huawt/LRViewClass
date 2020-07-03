@@ -3,8 +3,9 @@
 #import <QuickLook/QuickLook.h>
 #import "LRUISize.h"
 #import "LRViewController.h"
-#import "BaseNavigationBar.h"
+#import "LRNavigationBar.h"
 #import "ControllerPopByInteractivePopGestureRecognizer.h"
+#import "LRDefines.h"
 
 @interface LRNavigationController ()<UIGestureRecognizerDelegate>
 
@@ -14,7 +15,7 @@
 
 - (instancetype)initWithNavigationBarClass:(Class)navigationBarClass toolbarClass:(Class)toolbarClass
 {
-    return [super initWithNavigationBarClass:[BaseNavigationBar class] toolbarClass:[UIToolbar class]];
+    return [super initWithNavigationBarClass:[LRNavigationBar class] toolbarClass:[UIToolbar class]];
 }
 
 - (void)viewDidLoad
@@ -72,7 +73,7 @@
 
 #pragma mark - 模仿push pop效果
 
-#pragma mark - huawt添加 push时打印目标控制器名称
+#pragma mark - 添加 push时打印目标控制器名称
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated
 {
     if (self.childViewControllers.count > 0) {
@@ -80,6 +81,7 @@
     }else{
         viewController.hidesBottomBarWhenPushed = NO;
     }
+    DLog(@"Push viewController:%@", NSStringFromClass([viewController class]));
     [super pushViewController:viewController animated:animated];
 }
 
