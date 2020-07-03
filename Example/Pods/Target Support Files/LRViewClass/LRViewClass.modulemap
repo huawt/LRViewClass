@@ -1,0 +1,6 @@
+framework module LRViewClass {
+  umbrella header "LRViewClass-umbrella.h"
+
+  export *
+  module * { export * }
+}

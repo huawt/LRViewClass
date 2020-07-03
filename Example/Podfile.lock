@@ -1,0 +1,16 @@
+PODS:
+  - LRViewClass (1.0.0)
+
+DEPENDENCIES:
+  - LRViewClass (from `../`)
+
+EXTERNAL SOURCES:
+  LRViewClass:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LRViewClass: f6ba81ddc076cef6f6f5d7d4cf192bcc0c807959
+
+PODFILE CHECKSUM: bc00e551e9fdb60536d5d45cd0a9863774c34698
+
+COCOAPODS: 1.9.3

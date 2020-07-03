@@ -1,0 +1,6 @@
+framework module Pods_LRViewClass_Example {
+  umbrella header "Pods-LRViewClass_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
