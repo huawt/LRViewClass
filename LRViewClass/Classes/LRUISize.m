@@ -47,6 +47,19 @@ BOOL kIsIPhoneX = NO;
     return NO;
 }
 
+BOOL kIsiPhone(void){
+    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) {
+        return YES;
+    }
+    return NO;
+}
+BOOL kIsiPad(void){
+    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
+        return YES;
+    }
+    return NO;
+}
+
 BOOL IsIPhoneX(void){
     if (@available(iOS 11.0, *)) {
         UIWindow *window = [UIApplication sharedApplication].delegate.window;

@@ -8,6 +8,6 @@
 
 @import UIKit;
 
-@interface LRViewController : UIViewController
+@interface LRBaseViewController : UIViewController
 
 @end

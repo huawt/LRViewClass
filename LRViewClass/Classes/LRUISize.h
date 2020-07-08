@@ -17,8 +17,21 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface LRUISize : NSObject
 
+/**
+是否是 刘海屏
+*/
 + (BOOL)judgeIsIPhoneX;
-
+/**
+ 是否是 iPhone
+ */
+BOOL kIsiPhone(void);
+/**
+ 是否是 iPad
+ */
+BOOL kIsiPad(void);
+/**
+是否是 刘海屏
+*/
 BOOL IsIPhoneX(void);
 
 UIImage *RefactorImage(UIImage *image, CGSize size);

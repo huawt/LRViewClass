@@ -16,6 +16,12 @@ static NSMutableDictionary *navigationBarBackgroundImageDictionary = nil;
 
 -(instancetype)init{
     if (self=[super init]) {
+        
+        if (@available(iOS 13.0, *)) {
+            self.modalPresentationStyle = UIModalPresentationFullScreen ;
+            [self setValue:@YES forKey:@"modalInPresentation"];
+        }
+        
         [self.navigationItem setHidesBackButton:YES animated:NO];
         self.interactivePopGestureRecognizerEnabled = YES;
     }
@@ -56,7 +62,7 @@ static NSMutableDictionary *navigationBarBackgroundImageDictionary = nil;
     [self.view setExclusiveTouch:YES];
 
     if (@available(iOS 13.0, *)) {
-        self.modalPresentationStyle = UIModalPresentationFullScreen;
+        self.modalPresentationStyle = UIModalPresentationFullScreen ;
         [self setValue:@YES forKey:@"modalInPresentation"];
     }
 }
