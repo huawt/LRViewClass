@@ -14,7 +14,7 @@ BOOL kIsIPhoneX = NO;
 
 @implementation LRUISize
 
-+ (void)load
++ (void)configureUISize
 {
     kIsIPhoneX = [self judgeIsIPhoneX];
     if (kIsIPhoneX) {

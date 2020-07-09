@@ -17,6 +17,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface LRUISize : NSObject
 
+/// 配置UISize
++ (void)configureUISize;
+
 /**
 是否是 刘海屏
 */
