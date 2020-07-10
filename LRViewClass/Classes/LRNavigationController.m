@@ -30,7 +30,6 @@
     }
     
     self.delegate = self;
-    [self deleteNavigationBarBottomLine];
     
     [self.navigationBar setTitleTextAttributes:@{NSFontAttributeName:[UIFont fontWithName:@"Helvetica-bold" size:17], NSForegroundColorAttributeName:[UIColor whiteColor]}];
     self.navigationBar.tintColor = UIColor.whiteColor;
