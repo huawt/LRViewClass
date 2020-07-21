@@ -31,8 +31,24 @@
     
     self.delegate = self;
     
-    [self.navigationBar setTitleTextAttributes:@{NSFontAttributeName:[UIFont fontWithName:@"Helvetica-bold" size:17], NSForegroundColorAttributeName:[UIColor whiteColor]}];
+    [self.navigationBar setTitleTextAttributes:@{NSFontAttributeName:[UIFont fontWithName:@"Helvetica-bold" size:17], NSForegroundColorAttributeName:[UIColor colorWithRed:26 / 255.0 green:26 / 255.0 blue:26 / 255.0 alpha:1]}];
     self.navigationBar.tintColor = UIColor.whiteColor;
+}
+
+- (void)setNavigationBarTitleFont:(UIFont *)titleFont{
+    UIFont *font = titleFont;
+    if (font == nil) {
+        font = [UIFont fontWithName:@"Helvetica-bold" size:17];
+    }
+    [self.navigationBar setTitleTextAttributes:@{NSFontAttributeName:font}];
+}
+
+- (void)setNavigationBarTitleColor:(UIColor *)titleColor{
+    UIColor *color = titleColor;
+    if (color == nil) {
+        color = [UIColor colorWithRed:26 / 255.0 green:26 / 255.0 blue:26 / 255.0 alpha:1];
+    }
+    [self.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName:color}];
 }
 
 - (void)deleteNavigationBarBottomLine

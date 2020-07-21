@@ -7,31 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05FB945326293AD360E7036CF1C40961 /* ControllerPopByInteractivePopGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 48E5C326D10EFD101D2FB04DA4B56BBD /* ControllerPopByInteractivePopGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C21DA1C72244BA9567B50C363770169 /* LRImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EAB9B16B86BA21CD07B3778C9C1A4871 /* LRImage.bundle */; };
+		115B0DF8075E9BBE94485AE928B50DC0 /* LRNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = EE8BED6D70842805880EEEB56DD55109 /* LRNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		12C5F421869BEFA545C1648C33F2C569 /* Pods-LRViewClass_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 913751BCFC709D16FE03102C12391947 /* Pods-LRViewClass_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		162AB49902FFB00B9CE58CDC2671E72E /* ControllerPopByInteractivePopGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 48E5C326D10EFD101D2FB04DA4B56BBD /* ControllerPopByInteractivePopGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		17D8E9CDA398BE4490F72ADFEA47A4A5 /* LRViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 578B6796F5B380B43711B09454BFDFEF /* LRViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		18B09170DD36165631C3711E9A4D801B /* LRViewClass-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19B8E3C6D6DFE6FD04B522D9D8ACD92F /* LRViewClass-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1AF29C0A26681C7E86C61F592FFDF840 /* LRUISize.h in Headers */ = {isa = PBXBuildFile; fileRef = 527EBAA5017B9C2086F2489D959CEED6 /* LRUISize.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D7F9DD1E6C3C23DCD231A7AE82ED047 /* LRTabBarViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 314937DB105BE716E73D7E82DF8CFBA0 /* LRTabBarViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		23D8B43358D801031D1C14377FDDAB56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD608BCCF279B1277BB911F33106997F /* Foundation.framework */; };
-		3B75917866B9AA6D5BF87DC046D9C30B /* LRViewClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F47DD465141D7BED7DF43DB95F56238 /* LRViewClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4DB7C9D493BBA9A9782662BB7374D90B /* LRDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = B7408A9F19B30D69DEA6F6DC80D1BD2D /* LRDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		56D3916C47F6A90370C5DB9C85039EA3 /* LRNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C854CFDE92D79D3260E70D236C0E2DD4 /* LRNavigationController.m */; };
-		690CE4805968C87A4EC545D40DC32EB9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01BDA658338AD3813D969D7011B56B8D /* UIKit.framework */; };
-		69A33E5945C342FF8FAD986C76EF440E /* LRViewClass-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D93E45867A586230F25259664C4CCF44 /* LRViewClass-dummy.m */; };
+		236209C50A68F43311E055AF2415FEF0 /* LRNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C854CFDE92D79D3260E70D236C0E2DD4 /* LRNavigationController.m */; };
+		23D8B43358D801031D1C14377FDDAB56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		23F4B08B8603F04D38E87EB8164206F3 /* LRTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D22D8198358492A10FF80EDFD725A6AA /* LRTabBarViewController.m */; };
+		2A61A4CED1FBA097D187F9AC3DAC5237 /* LRNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = EEA71F88AAF35F37CD4619E2F240CA59 /* LRNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BD24B7A1D1B3BD65A354122111101D7 /* LRViewClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F47DD465141D7BED7DF43DB95F56238 /* LRViewClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59C9329C60C1F5FA98694D3B78D6E568 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
 		6D500F142AD1DAA8747545CD97E65355 /* Pods-LRViewClass_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8AA77C9B0AF3827B244E399A1D57FC /* Pods-LRViewClass_Example-dummy.m */; };
-		6F4DDBC2A0017FEC1DA4F3EB7E9E84CE /* LRImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EAB9B16B86BA21CD07B3778C9C1A4871 /* LRImage.bundle */; };
-		8B65C322C319D9462AE4D997BC27F861 /* LRNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = EEA71F88AAF35F37CD4619E2F240CA59 /* LRNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8EEB42362BCAD5BF6C32EB9C00BC7936 /* LRNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E5827C9A80CA446DA1A2C714368C47 /* LRNavigationBar.m */; };
+		768895AD00CE0E4C2A1C8D9044A98A70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		8053BACF9509DC3FB0EF7C89430FA375 /* LRViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 578B6796F5B380B43711B09454BFDFEF /* LRViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A9E48F60D2166CF46DF73A66C51D74A /* Pods-LRViewClass_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F5783F85F7A4BA8782C5D845CD3B107 /* Pods-LRViewClass_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B5E18C31D9D6FFCD7D6BF24B2CEA1A9F /* LRTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D22D8198358492A10FF80EDFD725A6AA /* LRTabBarViewController.m */; };
-		B7E93348E0C25E271D57CA4519C70D4F /* LRNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = EE8BED6D70842805880EEEB56DD55109 /* LRNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C3142A286DF47C248A7AB3394F487937 /* LRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7489FE7340FCF3E83201BBD9532F16EE /* LRViewController.m */; };
-		CF0F1A30C16971DAC70291B13A9DA0CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD608BCCF279B1277BB911F33106997F /* Foundation.framework */; };
-		D4B23DDC4FC963F07F5FA2F18E0AABF0 /* LRUISize.m in Sources */ = {isa = PBXBuildFile; fileRef = 97754431321E470A0AB33F79CE2465D8 /* LRUISize.m */; };
+		A35C38910BF1E905DCCB156CE2602980 /* LRViewClass-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19B8E3C6D6DFE6FD04B522D9D8ACD92F /* LRViewClass-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF3D1A0579662D65723049D231D97395 /* LRViewClass-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D93E45867A586230F25259664C4CCF44 /* LRViewClass-dummy.m */; };
+		B594CC9BE2991FFA7DC974EF5C14C66B /* LRUISize.h in Headers */ = {isa = PBXBuildFile; fileRef = 527EBAA5017B9C2086F2489D959CEED6 /* LRUISize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7E6D4B36CFC8677DB043AA09BB73764 /* LRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7489FE7340FCF3E83201BBD9532F16EE /* LRViewController.m */; };
+		C14740149B403D87E6FB2C56F9A4B122 /* LRUISize.m in Sources */ = {isa = PBXBuildFile; fileRef = 97754431321E470A0AB33F79CE2465D8 /* LRUISize.m */; };
+		CF0F1A30C16971DAC70291B13A9DA0CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		D1A32F13F48FF27EDBFC4365DC8DC678 /* LRTabBarViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 314937DB105BE716E73D7E82DF8CFBA0 /* LRTabBarViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7FB490939C960B0AC451FFBBAD4425F /* Pods-LRViewClass_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B1E817549D24E8FCDC1D93A28361DC /* Pods-LRViewClass_Tests-dummy.m */; };
-		DC970E1634761C794CABEC63A31837C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD608BCCF279B1277BB911F33106997F /* Foundation.framework */; };
-		E4DE039D77C168B4097318FA7200364C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 276842F3A283EE87124FE6C3EAAFD184 /* CoreGraphics.framework */; };
+		E4A7AA491F5458ACD160CCA5481263D4 /* LRDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = B7408A9F19B30D69DEA6F6DC80D1BD2D /* LRDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDD846CE009639F80474E7C3ACE24301 /* LRNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E5827C9A80CA446DA1A2C714368C47 /* LRNavigationBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,18 +51,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01BDA658338AD3813D969D7011B56B8D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		03C6C86F7EFD6774E13F9F9D8158EBE0 /* LRViewClass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LRViewClass.debug.xcconfig; sourceTree = "<group>"; };
 		03F274FC1C6AFD5B6C213D96159E66E0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		0A8AA77C9B0AF3827B244E399A1D57FC /* Pods-LRViewClass_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LRViewClass_Example-dummy.m"; sourceTree = "<group>"; };
 		17B91CD9DA6F6D1439B79EBC4DE6074A /* LRViewClass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LRViewClass.release.xcconfig; sourceTree = "<group>"; };
 		196B37722BCDC2B447D1DAF4A7344535 /* Pods_LRViewClass_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LRViewClass_Example.framework; path = "Pods-LRViewClass_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19B8E3C6D6DFE6FD04B522D9D8ACD92F /* LRViewClass-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LRViewClass-umbrella.h"; sourceTree = "<group>"; };
-		276842F3A283EE87124FE6C3EAAFD184 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		314937DB105BE716E73D7E82DF8CFBA0 /* LRTabBarViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LRTabBarViewController.h; path = LRViewClass/Classes/LRTabBarViewController.h; sourceTree = "<group>"; };
 		32FA66B39296E9916F10002AB517C604 /* Pods-LRViewClass_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LRViewClass_Example-Info.plist"; sourceTree = "<group>"; };
 		39BE2C0A9E12ED3DB3F3751477BA13C7 /* Pods-LRViewClass_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LRViewClass_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		40B1E817549D24E8FCDC1D93A28361DC /* Pods-LRViewClass_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LRViewClass_Tests-dummy.m"; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4568A4BDBD1D46EC8ED19B9188865047 /* LRViewClass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LRViewClass.framework; path = LRViewClass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46E1DEE7D9B8DCFF2D1FFE1399A7C673 /* Pods-LRViewClass_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LRViewClass_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		48E5C326D10EFD101D2FB04DA4B56BBD /* ControllerPopByInteractivePopGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ControllerPopByInteractivePopGestureRecognizer.h; path = LRViewClass/Classes/ControllerPopByInteractivePopGestureRecognizer.h; sourceTree = "<group>"; };
@@ -99,7 +98,6 @@
 		EE8BED6D70842805880EEEB56DD55109 /* LRNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LRNavigationController.h; path = LRViewClass/Classes/LRNavigationController.h; sourceTree = "<group>"; };
 		EEA71F88AAF35F37CD4619E2F240CA59 /* LRNavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LRNavigationBar.h; path = LRViewClass/Classes/LRNavigationBar.h; sourceTree = "<group>"; };
 		FD5FA874AA2BE205F1782BB9AC810769 /* LRViewClass.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LRViewClass.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		FD608BCCF279B1277BB911F33106997F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +109,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		35D3ED9334B105FD5DDDD9F88A7B47F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768895AD00CE0E4C2A1C8D9044A98A70 /* Foundation.framework in Frameworks */,
+				59C9329C60C1F5FA98694D3B78D6E568 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7CB2EA071785C34F59BAD8F5CA33E72C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -119,27 +126,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A2EA9E542F4FED1449CA53FCD18C2912 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E4DE039D77C168B4097318FA7200364C /* CoreGraphics.framework in Frameworks */,
-				DC970E1634761C794CABEC63A31837C9 /* Foundation.framework in Frameworks */,
-				690CE4805968C87A4EC545D40DC32EB9 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				ABE8076CBFEE71A3B199C34F20F66745 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		1387AFA1225A2666312D43DC5FA6EBCA /* LRViewClass */ = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +167,14 @@
 			);
 			name = "Pods-LRViewClass_Tests";
 			path = "Target Support Files/Pods-LRViewClass_Tests";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		37753703C443F5F693B1733A65BA67D8 /* Targets Support Files */ = {
@@ -232,25 +229,24 @@
 			path = "Example/Pods/Target Support Files/LRViewClass";
 			sourceTree = "<group>";
 		};
-		ABE8076CBFEE71A3B199C34F20F66745 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				276842F3A283EE87124FE6C3EAAFD184 /* CoreGraphics.framework */,
-				FD608BCCF279B1277BB911F33106997F /* Foundation.framework */,
-				01BDA658338AD3813D969D7011B56B8D /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				ED95341E8BC9650E8027FFB13F0EDF19 /* Development Pods */,
-				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				77FCCF61F2CC695104F787CE60D3AD97 /* Products */,
 				37753703C443F5F693B1733A65BA67D8 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		ED95341E8BC9650E8027FFB13F0EDF19 /* Development Pods */ = {
@@ -297,19 +293,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3BCB7EC4063C53D38EEF9D404442B63 /* Headers */ = {
+		D5CE9407919703E506D25C07470AAC9F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				162AB49902FFB00B9CE58CDC2671E72E /* ControllerPopByInteractivePopGestureRecognizer.h in Headers */,
-				4DB7C9D493BBA9A9782662BB7374D90B /* LRDefines.h in Headers */,
-				8B65C322C319D9462AE4D997BC27F861 /* LRNavigationBar.h in Headers */,
-				B7E93348E0C25E271D57CA4519C70D4F /* LRNavigationController.h in Headers */,
-				1D7F9DD1E6C3C23DCD231A7AE82ED047 /* LRTabBarViewController.h in Headers */,
-				1AF29C0A26681C7E86C61F592FFDF840 /* LRUISize.h in Headers */,
-				18B09170DD36165631C3711E9A4D801B /* LRViewClass-umbrella.h in Headers */,
-				3B75917866B9AA6D5BF87DC046D9C30B /* LRViewClass.h in Headers */,
-				17D8E9CDA398BE4490F72ADFEA47A4A5 /* LRViewController.h in Headers */,
+				05FB945326293AD360E7036CF1C40961 /* ControllerPopByInteractivePopGestureRecognizer.h in Headers */,
+				E4A7AA491F5458ACD160CCA5481263D4 /* LRDefines.h in Headers */,
+				2A61A4CED1FBA097D187F9AC3DAC5237 /* LRNavigationBar.h in Headers */,
+				115B0DF8075E9BBE94485AE928B50DC0 /* LRNavigationController.h in Headers */,
+				D1A32F13F48FF27EDBFC4365DC8DC678 /* LRTabBarViewController.h in Headers */,
+				B594CC9BE2991FFA7DC974EF5C14C66B /* LRUISize.h in Headers */,
+				A35C38910BF1E905DCCB156CE2602980 /* LRViewClass-umbrella.h in Headers */,
+				2BD24B7A1D1B3BD65A354122111101D7 /* LRViewClass.h in Headers */,
+				8053BACF9509DC3FB0EF7C89430FA375 /* LRViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,12 +352,12 @@
 		};
 		F4A7DC4E9589AC19809D42AD1C8197D0 /* LRViewClass */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 11072A60B725E3D85E578A45D7091608 /* Build configuration list for PBXNativeTarget "LRViewClass" */;
+			buildConfigurationList = CCB488D4F1D135F9FF534AECCEE81691 /* Build configuration list for PBXNativeTarget "LRViewClass" */;
 			buildPhases = (
-				E3BCB7EC4063C53D38EEF9D404442B63 /* Headers */,
-				005211994E8CDFD22DAC35074C5151B9 /* Sources */,
-				A2EA9E542F4FED1449CA53FCD18C2912 /* Frameworks */,
-				896BD5FCD6FDE150EBC0B316BF4F7ED1 /* Resources */,
+				D5CE9407919703E506D25C07470AAC9F /* Headers */,
+				2D5D060EC62BC4D13741F1E56E0D4639 /* Sources */,
+				35D3ED9334B105FD5DDDD9F88A7B47F5 /* Frameworks */,
+				A4C48054E13938A307E64D7196FD7F86 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -402,11 +398,11 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		896BD5FCD6FDE150EBC0B316BF4F7ED1 /* Resources */ = {
+		A4C48054E13938A307E64D7196FD7F86 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F4DDBC2A0017FEC1DA4F3EB7E9E84CE /* LRImage.bundle in Resources */,
+				0C21DA1C72244BA9567B50C363770169 /* LRImage.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,16 +423,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		005211994E8CDFD22DAC35074C5151B9 /* Sources */ = {
+		2D5D060EC62BC4D13741F1E56E0D4639 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EEB42362BCAD5BF6C32EB9C00BC7936 /* LRNavigationBar.m in Sources */,
-				56D3916C47F6A90370C5DB9C85039EA3 /* LRNavigationController.m in Sources */,
-				B5E18C31D9D6FFCD7D6BF24B2CEA1A9F /* LRTabBarViewController.m in Sources */,
-				D4B23DDC4FC963F07F5FA2F18E0AABF0 /* LRUISize.m in Sources */,
-				69A33E5945C342FF8FAD986C76EF440E /* LRViewClass-dummy.m in Sources */,
-				C3142A286DF47C248A7AB3394F487937 /* LRViewController.m in Sources */,
+				FDD846CE009639F80474E7C3ACE24301 /* LRNavigationBar.m in Sources */,
+				236209C50A68F43311E055AF2415FEF0 /* LRNavigationController.m in Sources */,
+				23F4B08B8603F04D38E87EB8164206F3 /* LRTabBarViewController.m in Sources */,
+				C14740149B403D87E6FB2C56F9A4B122 /* LRUISize.m in Sources */,
+				AF3D1A0579662D65723049D231D97395 /* LRViewClass-dummy.m in Sources */,
+				B7E6D4B36CFC8677DB043AA09BB73764 /* LRViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,69 +497,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		31F5CAF10DDCA1FFC2726AE34E33086E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 03C6C86F7EFD6774E13F9F9D8158EBE0 /* LRViewClass.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LRViewClass/LRViewClass-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LRViewClass/LRViewClass-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LRViewClass/LRViewClass.modulemap";
-				PRODUCT_MODULE_NAME = LRViewClass;
-				PRODUCT_NAME = LRViewClass;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		321B4CAA9BB604C044A82D5793E23275 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17B91CD9DA6F6D1439B79EBC4DE6074A /* LRViewClass.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LRViewClass/LRViewClass-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LRViewClass/LRViewClass-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LRViewClass/LRViewClass.modulemap";
-				PRODUCT_MODULE_NAME = LRViewClass;
-				PRODUCT_NAME = LRViewClass;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -795,18 +728,72 @@
 			};
 			name = Debug;
 		};
+		C8F368AFA0E20EC0FD16101EDF0B89D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17B91CD9DA6F6D1439B79EBC4DE6074A /* LRViewClass.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LRViewClass/LRViewClass-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LRViewClass/LRViewClass-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LRViewClass/LRViewClass.modulemap";
+				PRODUCT_MODULE_NAME = LRViewClass;
+				PRODUCT_NAME = LRViewClass;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DB48737A7EB13674B89849F045C96010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03C6C86F7EFD6774E13F9F9D8158EBE0 /* LRViewClass.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LRViewClass/LRViewClass-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LRViewClass/LRViewClass-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LRViewClass/LRViewClass.modulemap";
+				PRODUCT_MODULE_NAME = LRViewClass;
+				PRODUCT_NAME = LRViewClass;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		11072A60B725E3D85E578A45D7091608 /* Build configuration list for PBXNativeTarget "LRViewClass" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				31F5CAF10DDCA1FFC2726AE34E33086E /* Debug */,
-				321B4CAA9BB604C044A82D5793E23275 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -830,6 +817,15 @@
 			buildConfigurations = (
 				B357EED931542AC0023BD01CF0AAEC39 /* Debug */,
 				91716B780FADB52415493B70F0314A1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCB488D4F1D135F9FF534AECCEE81691 /* Build configuration list for PBXNativeTarget "LRViewClass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB48737A7EB13674B89849F045C96010 /* Debug */,
+				C8F368AFA0E20EC0FD16101EDF0B89D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

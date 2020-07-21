@@ -93,7 +93,7 @@ UIButton *DefaultLeftButton(NSInteger fontSize, UIColor *normalColor, UIColor *h
 {
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
     btn.frame = CGRectMake(0, 0, 44, 44);
-    [btn setImage:[UIImage imageNamed:@"LRImage.bundle/LRBackImage_Black"] forState:UIControlStateNormal];
+    [btn setImage:[UIImage imageNamed:@"LRImage.bundle/LRBackImageBlack"] forState:UIControlStateNormal];
     [btn setContentHorizontalAlignment:UIControlContentHorizontalAlignmentLeft];
     if (fontSize > 0) {
         btn.titleLabel.font = [UIFont systemFontOfSize:fontSize];
@@ -112,7 +112,7 @@ UIButton *DefaultLeftButton(NSInteger fontSize, UIColor *normalColor, UIColor *h
     self.navLeftBtn =[UIButton buttonWithType:UIButtonTypeCustom];
     self.navLeftBtn.frame = CGRectMake(0, 0, 44, 44);
     self.navLeftBtn.tag=1001;
-    [self.navLeftBtn setImage:[UIImage imageNamed:@"LRImage.bundle/LRBackImage_Black"] forState:UIControlStateNormal];
+    [self.navLeftBtn setImage:[UIImage imageNamed:@"LRImage.bundle/LRBackImageBlack"] forState:UIControlStateNormal];
     [self.navLeftBtn setContentHorizontalAlignment:UIControlContentHorizontalAlignmentLeft];
     [self.navLeftBtn addTarget:self action:@selector(leftAction:) forControlEvents:UIControlEventTouchUpInside];
     [self createLeftBtnItemWithCustomView:self.navLeftBtn];
@@ -214,7 +214,7 @@ UIButton *DefaultLeftButton(NSInteger fontSize, UIColor *normalColor, UIColor *h
     }else{
         UIImage *image = [UIImage imageNamed:defaultImageName];
         if (image == nil) {
-            image = [UIImage imageNamed:@"LRImage.bundle/LRNavBarImg"];
+            image = [UIImage imageNamed:@"LRImage.bundle/LRNavigationBarWhite"];
         }
         defaultImage = RefactorImage(image, CGSizeMake(kUIWidth, kNavigationBarHeight + kStatusBarHeight));
     }
@@ -232,7 +232,7 @@ UIButton *DefaultLeftButton(NSInteger fontSize, UIColor *normalColor, UIColor *h
     defaultImageName = imageName;
     UIImage *image = [UIImage imageNamed:imageName];
     if (image == nil) {
-        image = [UIImage imageNamed:@"LRImage.bundle/LRNavBarImg"];
+        image = [UIImage imageNamed:@"LRImage.bundle/LRNavigationBarWhite"];
     }
     defaultImage = RefactorImage(image, CGSizeMake(kUIWidth, kNavigationBarHeight + kStatusBarHeight));
 }

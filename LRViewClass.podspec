@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LRViewClass'
-  s.version          = '1.0.5'
+  s.version          = '1.0.6'
   s.summary          = 'LRViewClass'
   s.description      = <<-DESC
   LRViewContoller:普通控制器
@@ -18,5 +18,5 @@ Pod::Spec.new do |s|
   s.source_files = 'LRViewClass/Classes/**/*'
   s.resource = 'LRViewClass/LRImage.bundle'
   s.public_header_files = 'LRViewClass/Classes/**/*.h'
-  s.frameworks = 'UIKit', 'Foundation', 'CoreGraphics'
+  s.frameworks = 'UIKit', 'Foundation'
 end
