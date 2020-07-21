@@ -59,6 +59,8 @@ static NSMutableDictionary *navigationBarBackgroundImageDictionary = nil;
 - (void)configBaseUI
 {
     self.view.backgroundColor = [UIColor whiteColor];
+    //为了原点在左上角
+    self.extendedLayoutIncludesOpaqueBars = YES;
     [self.view setExclusiveTouch:YES];
 
     if (@available(iOS 13.0, *)) {
@@ -113,6 +115,16 @@ UIButton *DefaultLeftButton(NSInteger fontSize, UIColor *normalColor, UIColor *h
     self.navLeftBtn.frame = CGRectMake(0, 0, 44, 44);
     self.navLeftBtn.tag=1001;
     [self.navLeftBtn setImage:[UIImage imageNamed:@"LRImage.bundle/LRBackImageBlack"] forState:UIControlStateNormal];
+    [self.navLeftBtn setContentHorizontalAlignment:UIControlContentHorizontalAlignmentLeft];
+    [self.navLeftBtn addTarget:self action:@selector(leftAction:) forControlEvents:UIControlEventTouchUpInside];
+    [self createLeftBtnItemWithCustomView:self.navLeftBtn];
+}
+
+- (void)createLeftWhiteBtnItem{
+    self.navLeftBtn =[UIButton buttonWithType:UIButtonTypeCustom];
+    self.navLeftBtn.frame = CGRectMake(0, 0, 44, 44);
+    self.navLeftBtn.tag=1001;
+    [self.navLeftBtn setImage:[UIImage imageNamed:@"LRImage.bundle/LRBackImageWhite"] forState:UIControlStateNormal];
     [self.navLeftBtn setContentHorizontalAlignment:UIControlContentHorizontalAlignmentLeft];
     [self.navLeftBtn addTarget:self action:@selector(leftAction:) forControlEvents:UIControlEventTouchUpInside];
     [self createLeftBtnItemWithCustomView:self.navLeftBtn];

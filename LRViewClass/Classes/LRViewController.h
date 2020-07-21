@@ -74,6 +74,10 @@ UIButton *DefaultLeftButton(NSInteger fontSize, UIColor *normalColor, UIColor *h
  创建默认的左侧按钮
  */
 - (void)createLeftBtnItem;
+/**
+ 创建默认的左侧按钮
+ */
+- (void)createLeftWhiteBtnItem;
 
 /**
  清除左侧按钮
