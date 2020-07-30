@@ -9,9 +9,32 @@
 
 @interface LRNavigationController ()<UIGestureRecognizerDelegate>
 
+@property (nonatomic, strong) UIImage *saveShadowImage;
+
 @end
 
 @implementation LRNavigationController
+
+- (instancetype)init{
+    if (self = [super init]) {
+        if (@available(iOS 13.0, *)) {
+            self.modalPresentationStyle = UIModalPresentationFullScreen ;
+            [self setValue:@YES forKey:@"modalInPresentation"];
+        }
+    }
+    return self;
+}
+
+- (instancetype)initWithRootViewController:(UIViewController *)rootViewController{
+    if (self = [super initWithNavigationBarClass:[LRNavigationBar class] toolbarClass:[UIToolbar class]]) {
+        self.viewControllers = @[rootViewController];
+        if (@available(iOS 13.0, *)) {
+            self.modalPresentationStyle = UIModalPresentationFullScreen ;
+            [self setValue:@YES forKey:@"modalInPresentation"];
+        }
+    }
+    return self;
+}
 
 - (instancetype)initWithNavigationBarClass:(Class)navigationBarClass toolbarClass:(Class)toolbarClass
 {
@@ -33,6 +56,8 @@
     
     [self.navigationBar setTitleTextAttributes:@{NSFontAttributeName:[UIFont fontWithName:@"Helvetica-bold" size:17], NSForegroundColorAttributeName:[UIColor colorWithRed:26 / 255.0 green:26 / 255.0 blue:26 / 255.0 alpha:1]}];
     self.navigationBar.tintColor = UIColor.whiteColor;
+    
+    self.saveShadowImage = self.navigationBar.shadowImage;
 }
 
 - (void)setNavigationBarTitleFont:(UIFont *)titleFont{
@@ -54,6 +79,10 @@
 - (void)deleteNavigationBarBottomLine
 {
     [self.navigationBar setShadowImage:[[UIImage alloc] init]];
+}
+
+- (void)resumeNavigationBarBottomLine{
+    [self.navigationBar setShadowImage:self.saveShadowImage];
 }
 
 //#pragma mark - UINavigationControllerDelegate
