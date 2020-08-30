@@ -16,6 +16,8 @@ alpha:alpha]
 #define DLog(...)
 #endif
 
+#define kMainScreenBounds [UIScreen mainScreen].bounds
+
 #define kDeviceWidth [UIScreen mainScreen].bounds.size.width
 #define kDeviceHeight [UIScreen mainScreen].bounds.size.height
 #define kIPhone (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
