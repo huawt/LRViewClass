@@ -30,7 +30,11 @@ static NSMutableDictionary *navigationBarBackgroundImageDictionary = nil;
 
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
-    [self setNavigationBarDefaultBackgroundImage];
+    if (self.naviBarImageStyle == LRNavigationBarBackgroundImageStyle_Default) {
+        [self setNavigationBarDefaultBackgroundImage];
+    }else if (self.naviBarImageStyle == LRNavigationBarBackgroundImageStyle_Clear) {
+        [self setNavigationBarClearBackgroundImage];
+    }
     [self.navigationItem setHidesBackButton:YES];
     if (!_customNavigationBarHiddenWhenAppear) {
         [self.navigationController setNavigationBarHidden:NO animated:YES];
@@ -54,6 +58,7 @@ static NSMutableDictionary *navigationBarBackgroundImageDictionary = nil;
 
     [self configBaseUI];
     [self.navigationItem setHidesBackButton:YES];
+    self.naviBarImageStyle = LRNavigationBarBackgroundImageStyle_Default;
 }
 
 - (void)configBaseUI
@@ -216,7 +221,11 @@ UIButton *DefaultLeftButton(NSInteger fontSize, UIColor *normalColor, UIColor *h
 #pragma mark -- 设置导航条背景色
 
 - (void)setNavigationBarDefaultBackgroundImage {
-    [self.navigationController.navigationBar setBackgroundImage:defaultImage forBarMetrics:UIBarMetricsDefault];
+    if (defaultImage) {
+        [self.navigationController.navigationBar setBackgroundImage:defaultImage forBarMetrics:UIBarMetricsDefault];
+    }else{
+        [self revertNavigationBarDefaultBackgroundImage];
+    }
 }
 
 - (void)revertNavigationBarDefaultBackgroundImage

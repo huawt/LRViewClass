@@ -3,6 +3,11 @@
 #import "ControllerPopByInteractivePopGestureRecognizer.h"
 
 
+typedef NS_OPTIONS(NSInteger, LRNavigationBarBackgroundImageStyle) {
+    LRNavigationBarBackgroundImageStyle_Default = 1,
+    LRNavigationBarBackgroundImageStyle_Clear = 1 << 1,
+};
+
 /**
  拦截左侧返回按钮
  */
@@ -52,6 +57,8 @@
  子类页面在显示时是否自定义导航栏的显示/隐藏
  */
 @property (nonatomic, assign) BOOL customNavigationBarHiddenWhenAppear;
+
+@property (nonatomic, assign) LRNavigationBarBackgroundImageStyle naviBarImageStyle;
 
 #pragma mark - 设置导航条
 

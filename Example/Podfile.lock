@@ -1,5 +1,5 @@
 PODS:
-  - LRViewClass (1.1.0)
+  - LRViewClass (1.1.1)
 
 DEPENDENCIES:
   - LRViewClass (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LRViewClass: 1f094db8a7117731ccd5a9c3f03bc6b523f0ba8c
+  LRViewClass: 90d46d129313343ab724f1c962a6846d7c404559
 
 PODFILE CHECKSUM: bc00e551e9fdb60536d5d45cd0a9863774c34698
 
