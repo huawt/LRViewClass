@@ -2,10 +2,7 @@
 #ifndef LRDefines_h
 #define LRDefines_h
 
-#define kHexColor(hexValue, alpha) [UIColor colorWithRed:((float)((hexValue & 0xFF0000) >> 16))/255.0\
-green:((float)((hexValue & 0xFF00) >> 8))/255.0\
-blue:((float)(hexValue & 0xFF))/255.0\
-alpha:alpha]
+#define kHexColor(hexValue, alpha) [UIColor colorWithRed:((float)((hexValue & 0xFF0000) >> 16))/255.0 green:((float)((hexValue & 0xFF00) >> 8))/255.0 blue:((float)(hexValue & 0xFF))/255.0 alpha:alpha]
 
 #define kRGBColor(Red, Green, Blue, Alpha) ([UIColor colorWithRed:(Red) / 255.0 green:(Green) / 255.0 blue:(Blue) / 255.0 alpha:(Alpha)])
 #define kRandomColor ([UIColor colorWithRed:arc4random() % 255 / 255.0 green:arc4random() % 255 / 255.0 blue:arc4random() % 255 / 255.0 alpha:1])

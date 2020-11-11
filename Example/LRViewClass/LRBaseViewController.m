@@ -20,6 +20,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
+    
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     [button setTitle:@"测试模态" forState:UIControlStateNormal];
     [button setTitleColor:UIColor.magentaColor forState:UIControlStateNormal];
@@ -27,7 +28,6 @@
     button.frame = CGRectMake(0, 0, 100, 60);
     button.center = self.view.center;
     [self.view addSubview:button];
-    
 }
 
 - (void)testModal
