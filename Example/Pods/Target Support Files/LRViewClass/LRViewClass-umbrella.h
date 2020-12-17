@@ -15,6 +15,7 @@
 #import "LRNavigationBar.h"
 #import "LRNavigationController.h"
 #import "LRTabBarViewController.h"
+#import "LRUIAppearance.h"
 #import "LRUISize.h"
 #import "LRViewClass.h"
 #import "LRViewController.h"

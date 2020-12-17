@@ -8,6 +8,7 @@ FOUNDATION_EXPORT double LRViewClassVersionNumber;
 FOUNDATION_EXPORT const unsigned char LRViewClassVersionString[];
 
 #import <LRViewClass/LRDefines.h>
+#import <LRViewClass/LRUIAppearance.h>
 #import <LRViewClass/LRUISize.h>
 #import <LRViewClass/LRNavigationBar.h>
 #import <LRViewClass/LRNavigationController.h>
@@ -18,6 +19,7 @@ FOUNDATION_EXPORT const unsigned char LRViewClassVersionString[];
 #else
 
 #import "LRDefines.h"
+#import "LRUIAppearance.h"
 #import "LRUISize.h"
 #import "LRNavigationBar.h"
 #import "LRNavigationController.h"

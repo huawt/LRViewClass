@@ -7,41 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05FB945326293AD360E7036CF1C40961 /* ControllerPopByInteractivePopGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = EC919F1369A0759D7D58C17BC838A6F5 /* ControllerPopByInteractivePopGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0C21DA1C72244BA9567B50C363770169 /* LRImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4B46A6875C2FF2693EF71A0D247B7A0E /* LRImage.bundle */; };
 		0EA1232EC197F0618CDE0D912098ACDB /* Pods-LRViewClass_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B1E817549D24E8FCDC1D93A28361DC /* Pods-LRViewClass_Tests-dummy.m */; };
-		115B0DF8075E9BBE94485AE928B50DC0 /* LRNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 474127B8F404739D4695E1A8ED64716B /* LRNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17D5EC887329464C129E50D88C43A992 /* LRViewClass-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 239439B9CABB9E2E3A29E411621D6B44 /* LRViewClass-dummy.m */; };
+		193EE274C5C8CEA22C3DEC386A269378 /* LRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D18B37C92675708F0567BF5B9C72B2 /* LRViewController.m */; };
+		1B35B3C0BA8B841D98CC7D163DD5F6B2 /* LRUISize.m in Sources */ = {isa = PBXBuildFile; fileRef = 51898563821D38AA9860D241E64C09FD /* LRUISize.m */; };
 		1C38FF52984C56BB9C1ADE874496FB6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		236209C50A68F43311E055AF2415FEF0 /* LRNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFE9CFDA7D934A46E19B32837B50A10 /* LRNavigationController.m */; };
-		23F4B08B8603F04D38E87EB8164206F3 /* LRTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F817F158B315AEF10EFC89AF6CFCBF6 /* LRTabBarViewController.m */; };
-		2A61A4CED1FBA097D187F9AC3DAC5237 /* LRNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 2760F447CC8D2AFF0765EE85EFEFAFB3 /* LRNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2BD24B7A1D1B3BD65A354122111101D7 /* LRViewClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B14B8124A34614F87E66C37A3A1229B /* LRViewClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C1F218C5F39E5A7A63909A7F89B8EED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
 		432AD847E46031FFE6C9DB87BDEF95BA /* Pods-LRViewClass_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F5783F85F7A4BA8782C5D845CD3B107 /* Pods-LRViewClass_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6A7212D9A168E0925BD1556284DFFA43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		8053BACF9509DC3FB0EF7C89430FA375 /* LRViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F81F5D7D570CADB07B247A6E534E3282 /* LRViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A35C38910BF1E905DCCB156CE2602980 /* LRViewClass-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A3761AF65EBB6E966AED9BF604377B9 /* LRViewClass-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44B7686EE5FAB43E0787E73D8A235298 /* LRTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B944960A317764DB204318C05829E0 /* LRTabBarViewController.m */; };
+		45EE5B26C96FB77CA9BC5CBF544BBA24 /* LRUIAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 149171229D299A53B555EF76E6F6EF59 /* LRUIAppearance.m */; };
+		52DFD02FDD2F70CD1F0EA0C6C13A7594 /* LRNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D84AB0066C6D99DF3674E9C0F669BEA /* LRNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E90852B03DCD3B3CAD35A15CBAC3ECF /* LRImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AE46E1576BE3D4FE7842E9AB55DE14BA /* LRImage.bundle */; };
+		78006EE613999AB5D152D3D693C66727 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		86E1C747F0DA358350827E2775B2AABE /* ControllerPopByInteractivePopGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B519A9D70FB304E4F88FA1E0B92B83F /* ControllerPopByInteractivePopGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D1776C681DA1AB56F16ADEF19F5F2F0 /* LRNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8894D580C50D04EC01DE51B1D6FA0F /* LRNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8011519602B0D54D2D92D75ABB038D4 /* LRViewClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 736F16D4831E0DE13E1688BB8A2B8778 /* LRViewClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AAA341BA9598643B0A9CD9F6CCF2A0EB /* Pods-LRViewClass_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 913751BCFC709D16FE03102C12391947 /* Pods-LRViewClass_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AF3D1A0579662D65723049D231D97395 /* LRViewClass-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 001500269C148E11F67DBC2CB3380AE9 /* LRViewClass-dummy.m */; };
-		B594CC9BE2991FFA7DC974EF5C14C66B /* LRUISize.h in Headers */ = {isa = PBXBuildFile; fileRef = 60AA942A714492F23AB3D38D8E0501ED /* LRUISize.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B7E6D4B36CFC8677DB043AA09BB73764 /* LRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5480896E68D379DC3BF836B0707B6675 /* LRViewController.m */; };
+		AC6E447203833226046B8E910F1CD004 /* LRNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD14C3655C0E9AF8AE67DED37466138 /* LRNavigationBar.m */; };
+		AE47E661B7D3BF21A7578CAACD3E863B /* LRUISize.h in Headers */ = {isa = PBXBuildFile; fileRef = B6CFB0C29B008B9A50234843E8951DF3 /* LRUISize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC3A0BE08AEAA50B223659C61BC6406F /* LRTabBarViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B62B9D6FD1FA640AD8E3E6CC8303FB59 /* LRTabBarViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF4BEDD09E4ED113820B7E769CFC9BEC /* Pods-LRViewClass_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8AA77C9B0AF3827B244E399A1D57FC /* Pods-LRViewClass_Example-dummy.m */; };
-		C14740149B403D87E6FB2C56F9A4B122 /* LRUISize.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9175751BC14ED022B25A77F2E2F7D5 /* LRUISize.m */; };
-		D1A32F13F48FF27EDBFC4365DC8DC678 /* LRTabBarViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D2EB49CD9A6ED234A3A19291BDAFA723 /* LRTabBarViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C698647994B30B881D447401156709BA /* LRViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8CCDC5D79C3D89EF32EDD3458FEF6E /* LRViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC0D82D391B2E8155C96CCEACDFCDE1B /* LRNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02273E0BBC5080C337FAECFE662B6C2F /* LRNavigationController.m */; };
+		D733E9169B79237C0109117750C4E24E /* LRUIAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = E2A5CFD8F54B78F45BB8442478138EB5 /* LRUIAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E07816AA85238650E989005CAB68A253 /* LRDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = F99816608B73E132FBD3AC86378F2C44 /* LRDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E1E0822C35C30CBBABBD1E29B93B4BE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		E3991C7D6FEB363E0B02CA60B2D47298 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
-		E4A7AA491F5458ACD160CCA5481263D4 /* LRDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B4BB9D030224257EE19D482B98F13F2 /* LRDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FDD846CE009639F80474E7C3ACE24301 /* LRNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D6399C2DF286CF59EB6C3D705EB8B5 /* LRNavigationBar.m */; };
+		ECDEFA14BBD930F492DF0E2FD86FDA34 /* LRViewClass-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A727F3A42CC1D973A19CF446C16BA9D9 /* LRViewClass-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		547D8133FE072E22F23D4AE580382381 /* PBXContainerItemProxy */ = {
+		2EBFCF45AB48F918117BB62FEF0212D4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F4A7DC4E9589AC19809D42AD1C8197D0;
 			remoteInfo = LRViewClass;
 		};
-		D0B7D410649DF54AADC24B38810AF638 /* PBXContainerItemProxy */ = {
+		68FBBC5F81ACA2E89CF7FF16C3C7CB4F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -51,62 +53,64 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		001500269C148E11F67DBC2CB3380AE9 /* LRViewClass-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LRViewClass-dummy.m"; sourceTree = "<group>"; };
-		0373E08E0CBBEAA05534D25B2A16B2CE /* LRViewClass-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LRViewClass-prefix.pch"; sourceTree = "<group>"; };
-		04F140F4B0AF135EB8708282A0A00A17 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		02273E0BBC5080C337FAECFE662B6C2F /* LRNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LRNavigationController.m; path = LRViewClass/Classes/LRNavigationController.m; sourceTree = "<group>"; };
+		05D39667F31F19AE019C13B489D9C7B0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		0A8AA77C9B0AF3827B244E399A1D57FC /* Pods-LRViewClass_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LRViewClass_Example-dummy.m"; sourceTree = "<group>"; };
+		149171229D299A53B555EF76E6F6EF59 /* LRUIAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LRUIAppearance.m; path = LRViewClass/Classes/LRUIAppearance.m; sourceTree = "<group>"; };
 		196B37722BCDC2B447D1DAF4A7344535 /* Pods_LRViewClass_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LRViewClass_Example.framework; path = "Pods-LRViewClass_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B4BB9D030224257EE19D482B98F13F2 /* LRDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LRDefines.h; path = LRViewClass/Classes/LRDefines.h; sourceTree = "<group>"; };
-		2760F447CC8D2AFF0765EE85EFEFAFB3 /* LRNavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LRNavigationBar.h; path = LRViewClass/Classes/LRNavigationBar.h; sourceTree = "<group>"; };
-		2F817F158B315AEF10EFC89AF6CFCBF6 /* LRTabBarViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LRTabBarViewController.m; path = LRViewClass/Classes/LRTabBarViewController.m; sourceTree = "<group>"; };
-		31A99071FA2F0DA2DA7E0417894D0F00 /* LRViewClass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LRViewClass.debug.xcconfig; sourceTree = "<group>"; };
+		19E2EB76C8337C5F3CA830F9E7AFD1ED /* LRViewClass-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LRViewClass-Info.plist"; sourceTree = "<group>"; };
+		239439B9CABB9E2E3A29E411621D6B44 /* LRViewClass-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LRViewClass-dummy.m"; sourceTree = "<group>"; };
 		32FA66B39296E9916F10002AB517C604 /* Pods-LRViewClass_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LRViewClass_Example-Info.plist"; sourceTree = "<group>"; };
 		39BE2C0A9E12ED3DB3F3751477BA13C7 /* Pods-LRViewClass_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LRViewClass_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		40B1E817549D24E8FCDC1D93A28361DC /* Pods-LRViewClass_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LRViewClass_Tests-dummy.m"; sourceTree = "<group>"; };
 		4568A4BDBD1D46EC8ED19B9188865047 /* LRViewClass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LRViewClass.framework; path = LRViewClass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46E1DEE7D9B8DCFF2D1FFE1399A7C673 /* Pods-LRViewClass_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LRViewClass_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		474127B8F404739D4695E1A8ED64716B /* LRNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LRNavigationController.h; path = LRViewClass/Classes/LRNavigationController.h; sourceTree = "<group>"; };
-		47D6399C2DF286CF59EB6C3D705EB8B5 /* LRNavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LRNavigationBar.m; path = LRViewClass/Classes/LRNavigationBar.m; sourceTree = "<group>"; };
-		49E50557F2ADAE9040DFB8ACEE7A4136 /* LRViewClass-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LRViewClass-Info.plist"; sourceTree = "<group>"; };
-		4B46A6875C2FF2693EF71A0D247B7A0E /* LRImage.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = LRImage.bundle; path = LRViewClass/LRImage.bundle; sourceTree = "<group>"; };
 		5043183FF20A2529E4D6D7477E02F8A2 /* Pods-LRViewClass_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LRViewClass_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5480896E68D379DC3BF836B0707B6675 /* LRViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LRViewController.m; path = LRViewClass/Classes/LRViewController.m; sourceTree = "<group>"; };
-		5B14B8124A34614F87E66C37A3A1229B /* LRViewClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LRViewClass.h; path = LRViewClass/Classes/LRViewClass.h; sourceTree = "<group>"; };
-		60AA942A714492F23AB3D38D8E0501ED /* LRUISize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LRUISize.h; path = LRViewClass/Classes/LRUISize.h; sourceTree = "<group>"; };
+		51898563821D38AA9860D241E64C09FD /* LRUISize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LRUISize.m; path = LRViewClass/Classes/LRUISize.m; sourceTree = "<group>"; };
+		5E49D412659AB38E3A79FE00DBA2FB93 /* LRViewClass-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LRViewClass-prefix.pch"; sourceTree = "<group>"; };
 		67B8643CD726493F3AC261656377BBBC /* Pods-LRViewClass_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LRViewClass_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		69EBCCB5CE36B4E168CD58860A42F822 /* LRViewClass.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LRViewClass.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7071F0A7D9609D54664D283EFBDB3004 /* Pods-LRViewClass_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LRViewClass_Example.release.xcconfig"; sourceTree = "<group>"; };
+		727E7142E2EF445579BE96BA9AC68FA2 /* LRViewClass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LRViewClass.release.xcconfig; sourceTree = "<group>"; };
+		736F16D4831E0DE13E1688BB8A2B8778 /* LRViewClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LRViewClass.h; path = LRViewClass/Classes/LRViewClass.h; sourceTree = "<group>"; };
+		79D18B37C92675708F0567BF5B9C72B2 /* LRViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LRViewController.m; path = LRViewClass/Classes/LRViewController.m; sourceTree = "<group>"; };
+		7B519A9D70FB304E4F88FA1E0B92B83F /* ControllerPopByInteractivePopGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ControllerPopByInteractivePopGestureRecognizer.h; path = LRViewClass/Classes/ControllerPopByInteractivePopGestureRecognizer.h; sourceTree = "<group>"; };
+		7DD14C3655C0E9AF8AE67DED37466138 /* LRNavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LRNavigationBar.m; path = LRViewClass/Classes/LRNavigationBar.m; sourceTree = "<group>"; };
 		87744CBF8B1165621B11F9D08924EE57 /* Pods_LRViewClass_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LRViewClass_Tests.framework; path = "Pods-LRViewClass_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A3761AF65EBB6E966AED9BF604377B9 /* LRViewClass-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LRViewClass-umbrella.h"; sourceTree = "<group>"; };
+		8B2A74ACE7727D1A00CCC67516856B70 /* LRViewClass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LRViewClass.debug.xcconfig; sourceTree = "<group>"; };
+		8D84AB0066C6D99DF3674E9C0F669BEA /* LRNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LRNavigationController.h; path = LRViewClass/Classes/LRNavigationController.h; sourceTree = "<group>"; };
 		8F5783F85F7A4BA8782C5D845CD3B107 /* Pods-LRViewClass_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LRViewClass_Tests-umbrella.h"; sourceTree = "<group>"; };
 		913751BCFC709D16FE03102C12391947 /* Pods-LRViewClass_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LRViewClass_Example-umbrella.h"; sourceTree = "<group>"; };
 		9887B279C90128019D460D1B81D62CEC /* Pods-LRViewClass_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LRViewClass_Example.modulemap"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F8CCDC5D79C3D89EF32EDD3458FEF6E /* LRViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LRViewController.h; path = LRViewClass/Classes/LRViewController.h; sourceTree = "<group>"; };
 		A4CD421706A64B1E6B86B11527CE586B /* Pods-LRViewClass_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LRViewClass_Tests-Info.plist"; sourceTree = "<group>"; };
-		AA9175751BC14ED022B25A77F2E2F7D5 /* LRUISize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LRUISize.m; path = LRViewClass/Classes/LRUISize.m; sourceTree = "<group>"; };
-		ADFE9CFDA7D934A46E19B32837B50A10 /* LRNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LRNavigationController.m; path = LRViewClass/Classes/LRNavigationController.m; sourceTree = "<group>"; };
+		A727F3A42CC1D973A19CF446C16BA9D9 /* LRViewClass-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LRViewClass-umbrella.h"; sourceTree = "<group>"; };
+		AE46E1576BE3D4FE7842E9AB55DE14BA /* LRImage.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = LRImage.bundle; path = LRViewClass/LRImage.bundle; sourceTree = "<group>"; };
+		B62B9D6FD1FA640AD8E3E6CC8303FB59 /* LRTabBarViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LRTabBarViewController.h; path = LRViewClass/Classes/LRTabBarViewController.h; sourceTree = "<group>"; };
+		B6CFB0C29B008B9A50234843E8951DF3 /* LRUISize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LRUISize.h; path = LRViewClass/Classes/LRUISize.h; sourceTree = "<group>"; };
+		B8B944960A317764DB204318C05829E0 /* LRTabBarViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LRTabBarViewController.m; path = LRViewClass/Classes/LRTabBarViewController.m; sourceTree = "<group>"; };
 		C2B676692CEE46447975AC8B74BB91D8 /* Pods-LRViewClass_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LRViewClass_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C32B578AF4A081D2C1DF159CDF68F43E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		CCFEEBDC2448B1443C5C435C47A726A9 /* LRViewClass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LRViewClass.release.xcconfig; sourceTree = "<group>"; };
-		CF340FD76FE5BF5C2257CB4CBA0179E9 /* LRViewClass.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LRViewClass.modulemap; sourceTree = "<group>"; };
+		C58C33B8BC7280F7A1195DB0234A1604 /* LRViewClass.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LRViewClass.modulemap; sourceTree = "<group>"; };
+		CC8FC98C11563D327EC1C607AF48826C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		D2EB49CD9A6ED234A3A19291BDAFA723 /* LRTabBarViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LRTabBarViewController.h; path = LRViewClass/Classes/LRTabBarViewController.h; sourceTree = "<group>"; };
 		D599CE3A1541DAE5059369B84EF488A3 /* Pods-LRViewClass_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LRViewClass_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DD8894D580C50D04EC01DE51B1D6FA0F /* LRNavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LRNavigationBar.h; path = LRViewClass/Classes/LRNavigationBar.h; sourceTree = "<group>"; };
 		E1056C51C62264C5C6A00B3F973938E8 /* Pods-LRViewClass_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LRViewClass_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E2A5CFD8F54B78F45BB8442478138EB5 /* LRUIAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LRUIAppearance.h; path = LRViewClass/Classes/LRUIAppearance.h; sourceTree = "<group>"; };
 		E339C8362CF7C99975328839DF945E46 /* Pods-LRViewClass_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LRViewClass_Tests.modulemap"; sourceTree = "<group>"; };
 		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		EC56D223BBC36EAD44D8E9BFAB2583B4 /* Pods-LRViewClass_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LRViewClass_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		EC919F1369A0759D7D58C17BC838A6F5 /* ControllerPopByInteractivePopGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ControllerPopByInteractivePopGestureRecognizer.h; path = LRViewClass/Classes/ControllerPopByInteractivePopGestureRecognizer.h; sourceTree = "<group>"; };
-		F81F5D7D570CADB07B247A6E534E3282 /* LRViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LRViewController.h; path = LRViewClass/Classes/LRViewController.h; sourceTree = "<group>"; };
+		F6A3C8BD5EC9F318E059ACB9E3AA7B68 /* LRViewClass.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LRViewClass.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F99816608B73E132FBD3AC86378F2C44 /* LRDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LRDefines.h; path = LRViewClass/Classes/LRDefines.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		35D3ED9334B105FD5DDDD9F88A7B47F5 /* Frameworks */ = {
+		160246F4A9F7ECB81085F78939D2EED1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A7212D9A168E0925BD1556284DFFA43 /* Foundation.framework in Frameworks */,
-				E3991C7D6FEB363E0B02CA60B2D47298 /* UIKit.framework in Frameworks */,
+				78006EE613999AB5D152D3D693C66727 /* Foundation.framework in Frameworks */,
+				3C1F218C5F39E5A7A63909A7F89B8EED /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +133,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0667BC04708EFED380E2781296957B1E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE70CB592C9112888D7F9C0AE6F98E06 /* LRViewClass */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		152B863B0274858493D8C0CC5B4EEDA6 /* Pods-LRViewClass_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,12 +174,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		52FAF9BCAD97B78E717C0999666E081E /* Pod */ = {
+		3D846A3E2D86710B7E72F154B64113E5 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				C32B578AF4A081D2C1DF159CDF68F43E /* LICENSE */,
-				69EBCCB5CE36B4E168CD58860A42F822 /* LRViewClass.podspec */,
-				04F140F4B0AF135EB8708282A0A00A17 /* README.md */,
+				CC8FC98C11563D327EC1C607AF48826C /* LICENSE */,
+				F6A3C8BD5EC9F318E059ACB9E3AA7B68 /* LRViewClass.podspec */,
+				05D39667F31F19AE019C13B489D9C7B0 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -181,28 +193,19 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		72897C49B5A250B99234C654798320AE /* LRViewClass */ = {
+		71DB2ADF19897E2E3279080F9FB9D2CE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				EC919F1369A0759D7D58C17BC838A6F5 /* ControllerPopByInteractivePopGestureRecognizer.h */,
-				1B4BB9D030224257EE19D482B98F13F2 /* LRDefines.h */,
-				4B46A6875C2FF2693EF71A0D247B7A0E /* LRImage.bundle */,
-				2760F447CC8D2AFF0765EE85EFEFAFB3 /* LRNavigationBar.h */,
-				47D6399C2DF286CF59EB6C3D705EB8B5 /* LRNavigationBar.m */,
-				474127B8F404739D4695E1A8ED64716B /* LRNavigationController.h */,
-				ADFE9CFDA7D934A46E19B32837B50A10 /* LRNavigationController.m */,
-				D2EB49CD9A6ED234A3A19291BDAFA723 /* LRTabBarViewController.h */,
-				2F817F158B315AEF10EFC89AF6CFCBF6 /* LRTabBarViewController.m */,
-				60AA942A714492F23AB3D38D8E0501ED /* LRUISize.h */,
-				AA9175751BC14ED022B25A77F2E2F7D5 /* LRUISize.m */,
-				5B14B8124A34614F87E66C37A3A1229B /* LRViewClass.h */,
-				F81F5D7D570CADB07B247A6E534E3282 /* LRViewController.h */,
-				5480896E68D379DC3BF836B0707B6675 /* LRViewController.m */,
-				52FAF9BCAD97B78E717C0999666E081E /* Pod */,
-				7C03DC6BBE7AE0EA3C5992FBA59F40F1 /* Support Files */,
+				C58C33B8BC7280F7A1195DB0234A1604 /* LRViewClass.modulemap */,
+				239439B9CABB9E2E3A29E411621D6B44 /* LRViewClass-dummy.m */,
+				19E2EB76C8337C5F3CA830F9E7AFD1ED /* LRViewClass-Info.plist */,
+				5E49D412659AB38E3A79FE00DBA2FB93 /* LRViewClass-prefix.pch */,
+				A727F3A42CC1D973A19CF446C16BA9D9 /* LRViewClass-umbrella.h */,
+				8B2A74ACE7727D1A00CCC67516856B70 /* LRViewClass.debug.xcconfig */,
+				727E7142E2EF445579BE96BA9AC68FA2 /* LRViewClass.release.xcconfig */,
 			);
-			name = LRViewClass;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LRViewClass";
 			sourceTree = "<group>";
 		};
 		77FCCF61F2CC695104F787CE60D3AD97 /* Products */ = {
@@ -215,38 +218,41 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7C03DC6BBE7AE0EA3C5992FBA59F40F1 /* Support Files */ = {
+		CE70CB592C9112888D7F9C0AE6F98E06 /* LRViewClass */ = {
 			isa = PBXGroup;
 			children = (
-				CF340FD76FE5BF5C2257CB4CBA0179E9 /* LRViewClass.modulemap */,
-				001500269C148E11F67DBC2CB3380AE9 /* LRViewClass-dummy.m */,
-				49E50557F2ADAE9040DFB8ACEE7A4136 /* LRViewClass-Info.plist */,
-				0373E08E0CBBEAA05534D25B2A16B2CE /* LRViewClass-prefix.pch */,
-				8A3761AF65EBB6E966AED9BF604377B9 /* LRViewClass-umbrella.h */,
-				31A99071FA2F0DA2DA7E0417894D0F00 /* LRViewClass.debug.xcconfig */,
-				CCFEEBDC2448B1443C5C435C47A726A9 /* LRViewClass.release.xcconfig */,
+				7B519A9D70FB304E4F88FA1E0B92B83F /* ControllerPopByInteractivePopGestureRecognizer.h */,
+				F99816608B73E132FBD3AC86378F2C44 /* LRDefines.h */,
+				AE46E1576BE3D4FE7842E9AB55DE14BA /* LRImage.bundle */,
+				DD8894D580C50D04EC01DE51B1D6FA0F /* LRNavigationBar.h */,
+				7DD14C3655C0E9AF8AE67DED37466138 /* LRNavigationBar.m */,
+				8D84AB0066C6D99DF3674E9C0F669BEA /* LRNavigationController.h */,
+				02273E0BBC5080C337FAECFE662B6C2F /* LRNavigationController.m */,
+				B62B9D6FD1FA640AD8E3E6CC8303FB59 /* LRTabBarViewController.h */,
+				B8B944960A317764DB204318C05829E0 /* LRTabBarViewController.m */,
+				E2A5CFD8F54B78F45BB8442478138EB5 /* LRUIAppearance.h */,
+				149171229D299A53B555EF76E6F6EF59 /* LRUIAppearance.m */,
+				B6CFB0C29B008B9A50234843E8951DF3 /* LRUISize.h */,
+				51898563821D38AA9860D241E64C09FD /* LRUISize.m */,
+				736F16D4831E0DE13E1688BB8A2B8778 /* LRViewClass.h */,
+				9F8CCDC5D79C3D89EF32EDD3458FEF6E /* LRViewController.h */,
+				79D18B37C92675708F0567BF5B9C72B2 /* LRViewController.m */,
+				3D846A3E2D86710B7E72F154B64113E5 /* Pod */,
+				71DB2ADF19897E2E3279080F9FB9D2CE /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LRViewClass";
+			name = LRViewClass;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				ED95341E8BC9650E8027FFB13F0EDF19 /* Development Pods */,
+				0667BC04708EFED380E2781296957B1E /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				77FCCF61F2CC695104F787CE60D3AD97 /* Products */,
 				37753703C443F5F693B1733A65BA67D8 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		ED95341E8BC9650E8027FFB13F0EDF19 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				72897C49B5A250B99234C654798320AE /* LRViewClass */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		F405178E83E38F2815AC682E87E43143 /* Pods-LRViewClass_Example */ = {
@@ -269,6 +275,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		10BC20F07EAC5AFBF5EFAEF28E9F6F4F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86E1C747F0DA358350827E2775B2AABE /* ControllerPopByInteractivePopGestureRecognizer.h in Headers */,
+				E07816AA85238650E989005CAB68A253 /* LRDefines.h in Headers */,
+				9D1776C681DA1AB56F16ADEF19F5F2F0 /* LRNavigationBar.h in Headers */,
+				52DFD02FDD2F70CD1F0EA0C6C13A7594 /* LRNavigationController.h in Headers */,
+				BC3A0BE08AEAA50B223659C61BC6406F /* LRTabBarViewController.h in Headers */,
+				D733E9169B79237C0109117750C4E24E /* LRUIAppearance.h in Headers */,
+				AE47E661B7D3BF21A7578CAACD3E863B /* LRUISize.h in Headers */,
+				ECDEFA14BBD930F492DF0E2FD86FDA34 /* LRViewClass-umbrella.h in Headers */,
+				A8011519602B0D54D2D92D75ABB038D4 /* LRViewClass.h in Headers */,
+				C698647994B30B881D447401156709BA /* LRViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2C637AE129CC60910B62980512322B50 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -282,22 +305,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				432AD847E46031FFE6C9DB87BDEF95BA /* Pods-LRViewClass_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D5CE9407919703E506D25C07470AAC9F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				05FB945326293AD360E7036CF1C40961 /* ControllerPopByInteractivePopGestureRecognizer.h in Headers */,
-				E4A7AA491F5458ACD160CCA5481263D4 /* LRDefines.h in Headers */,
-				2A61A4CED1FBA097D187F9AC3DAC5237 /* LRNavigationBar.h in Headers */,
-				115B0DF8075E9BBE94485AE928B50DC0 /* LRNavigationController.h in Headers */,
-				D1A32F13F48FF27EDBFC4365DC8DC678 /* LRTabBarViewController.h in Headers */,
-				B594CC9BE2991FFA7DC974EF5C14C66B /* LRUISize.h in Headers */,
-				A35C38910BF1E905DCCB156CE2602980 /* LRViewClass-umbrella.h in Headers */,
-				2BD24B7A1D1B3BD65A354122111101D7 /* LRViewClass.h in Headers */,
-				8053BACF9509DC3FB0EF7C89430FA375 /* LRViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,7 +323,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				32B350DFF467FF19EC11AB262A302C96 /* PBXTargetDependency */,
+				C32CA52810ACEBEB117855BB80AEDAB5 /* PBXTargetDependency */,
 			);
 			name = "Pods-LRViewClass_Example";
 			productName = "Pods-LRViewClass_Example";
@@ -335,7 +342,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				B85631BD45177D52C602EDA9579EF1D2 /* PBXTargetDependency */,
+				E21CA1B613E40B89E473CAC805F8B712 /* PBXTargetDependency */,
 			);
 			name = "Pods-LRViewClass_Tests";
 			productName = "Pods-LRViewClass_Tests";
@@ -344,12 +351,12 @@
 		};
 		F4A7DC4E9589AC19809D42AD1C8197D0 /* LRViewClass */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CCB488D4F1D135F9FF534AECCEE81691 /* Build configuration list for PBXNativeTarget "LRViewClass" */;
+			buildConfigurationList = C6D221411B483B725AE505B26FBC3DE3 /* Build configuration list for PBXNativeTarget "LRViewClass" */;
 			buildPhases = (
-				D5CE9407919703E506D25C07470AAC9F /* Headers */,
-				2D5D060EC62BC4D13741F1E56E0D4639 /* Sources */,
-				35D3ED9334B105FD5DDDD9F88A7B47F5 /* Frameworks */,
-				A4C48054E13938A307E64D7196FD7F86 /* Resources */,
+				10BC20F07EAC5AFBF5EFAEF28E9F6F4F /* Headers */,
+				47C341317134849965AE3590115A9E54 /* Sources */,
+				160246F4A9F7ECB81085F78939D2EED1 /* Frameworks */,
+				98A3FD77CD9FC2E2BB2376117D145767 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -397,11 +404,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A4C48054E13938A307E64D7196FD7F86 /* Resources */ = {
+		98A3FD77CD9FC2E2BB2376117D145767 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C21DA1C72244BA9567B50C363770169 /* LRImage.bundle in Resources */,
+				5E90852B03DCD3B3CAD35A15CBAC3ECF /* LRImage.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,16 +422,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2D5D060EC62BC4D13741F1E56E0D4639 /* Sources */ = {
+		47C341317134849965AE3590115A9E54 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDD846CE009639F80474E7C3ACE24301 /* LRNavigationBar.m in Sources */,
-				236209C50A68F43311E055AF2415FEF0 /* LRNavigationController.m in Sources */,
-				23F4B08B8603F04D38E87EB8164206F3 /* LRTabBarViewController.m in Sources */,
-				C14740149B403D87E6FB2C56F9A4B122 /* LRUISize.m in Sources */,
-				AF3D1A0579662D65723049D231D97395 /* LRViewClass-dummy.m in Sources */,
-				B7E6D4B36CFC8677DB043AA09BB73764 /* LRViewController.m in Sources */,
+				AC6E447203833226046B8E910F1CD004 /* LRNavigationBar.m in Sources */,
+				CC0D82D391B2E8155C96CCEACDFCDE1B /* LRNavigationController.m in Sources */,
+				44B7686EE5FAB43E0787E73D8A235298 /* LRTabBarViewController.m in Sources */,
+				45EE5B26C96FB77CA9BC5CBF544BBA24 /* LRUIAppearance.m in Sources */,
+				1B35B3C0BA8B841D98CC7D163DD5F6B2 /* LRUISize.m in Sources */,
+				17D5EC887329464C129E50D88C43A992 /* LRViewClass-dummy.m in Sources */,
+				193EE274C5C8CEA22C3DEC386A269378 /* LRViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,24 +455,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		32B350DFF467FF19EC11AB262A302C96 /* PBXTargetDependency */ = {
+		C32CA52810ACEBEB117855BB80AEDAB5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LRViewClass;
 			target = F4A7DC4E9589AC19809D42AD1C8197D0 /* LRViewClass */;
-			targetProxy = 547D8133FE072E22F23D4AE580382381 /* PBXContainerItemProxy */;
+			targetProxy = 2EBFCF45AB48F918117BB62FEF0212D4 /* PBXContainerItemProxy */;
 		};
-		B85631BD45177D52C602EDA9579EF1D2 /* PBXTargetDependency */ = {
+		E21CA1B613E40B89E473CAC805F8B712 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-LRViewClass_Example";
 			target = 3A0731FE17195C7650616DFB3BDEFA91 /* Pods-LRViewClass_Example */;
-			targetProxy = D0B7D410649DF54AADC24B38810AF638 /* PBXContainerItemProxy */;
+			targetProxy = 68FBBC5F81ACA2E89CF7FF16C3C7CB4F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		55D2FE0ABF85F73CA04973929DCE0F1E /* Release */ = {
+		5470DB3B72E97CA8380DD44AAF07EC02 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CCFEEBDC2448B1443C5C435C47A726A9 /* LRViewClass.release.xcconfig */;
+			baseConfigurationReference = 727E7142E2EF445579BE96BA9AC68FA2 /* LRViewClass.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -492,6 +500,36 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		57D732EA4FAE386A2B531041A4DA8B61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B2A74ACE7727D1A00CCC67516856B70 /* LRViewClass.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LRViewClass/LRViewClass-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LRViewClass/LRViewClass-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LRViewClass/LRViewClass.modulemap";
+				PRODUCT_MODULE_NAME = LRViewClass;
+				PRODUCT_NAME = LRViewClass;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		595D16713C83E1642EDA0C89E4ADEB76 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -685,36 +723,6 @@
 			};
 			name = Release;
 		};
-		C212FDB7CC120714E57F7C0C4D64EC9E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 31A99071FA2F0DA2DA7E0417894D0F00 /* LRViewClass.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LRViewClass/LRViewClass-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LRViewClass/LRViewClass-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LRViewClass/LRViewClass.modulemap";
-				PRODUCT_MODULE_NAME = LRViewClass;
-				PRODUCT_NAME = LRViewClass;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		E4D0D44B090D4284607EBBC4E71A96C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -793,11 +801,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CCB488D4F1D135F9FF534AECCEE81691 /* Build configuration list for PBXNativeTarget "LRViewClass" */ = {
+		C6D221411B483B725AE505B26FBC3DE3 /* Build configuration list for PBXNativeTarget "LRViewClass" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C212FDB7CC120714E57F7C0C4D64EC9E /* Debug */,
-				55D2FE0ABF85F73CA04973929DCE0F1E /* Release */,
+				57D732EA4FAE386A2B531041A4DA8B61 /* Debug */,
+				5470DB3B72E97CA8380DD44AAF07EC02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

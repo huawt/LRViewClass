@@ -1,6 +1,7 @@
 
 #import "LRViewController.h"
 #import "LRUISize.h"
+#import "LRUIAppearance.h"
 
 #define kNavigationTitleMaxLength (kUIWidth - 180)
 
@@ -39,7 +40,7 @@ static NSMutableDictionary *navigationBarBackgroundImageDictionary = nil;
     if (!_customNavigationBarHiddenWhenAppear) {
         [self.navigationController setNavigationBarHidden:NO animated:YES];
     }
-     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent animated:NO];
+     [[UIApplication sharedApplication] setStatusBarStyle:[LRUIAppearance appearance].statusBarStyle animated:NO];
 }
 
 - (void)viewDidAppear:(BOOL)animated
